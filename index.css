@@ -1,0 +1,712 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    position: relative;
+    letter-spacing: 0.04em;
+}
+
+* {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif, 'Poppins';
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav {
+    background-color: rgba(39, 44, 49, 0.8);
+    width: 100%;
+    /* height: 65px; */
+    height: 5.5vw;
+    text-align: center;
+    position: fixed;
+    padding: 0px, 100px;
+    z-index: 1;
+}
+
+nav .logo {
+    font-size: 1.7vw;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+nav .logo p {
+    color: aliceblue;
+    float: left;
+    text-transform: uppercase;
+    padding-left: 6vw;
+    padding-top: 2vw;
+    position: fixed;
+}
+
+nav ol {
+    display: flex;
+    flex-direction: row;
+    padding-right: 0;
+    padding-left: 15rem;
+    position: fixed;
+    margin-left: 29vw;
+}
+
+nav ol a {
+    /* display: inline; */
+    /* float: right; */
+    font-weight: 400;
+    font-size: 1.15vw;
+
+}
+
+nav ol li a {
+    text-decoration: none;
+    display: inline-block;
+    list-style: none;
+    color: aliceblue;
+    text-transform: uppercase;
+    padding-top: 2.25vw;
+    padding-right: 4.5vw;
+    letter-spacing: 0.12vw;
+
+}
+
+nav ol li a:hover {
+    cursor: pointer;
+    color: rgb(3, 249, 249);
+}
+
+.image {
+    width: 40%;
+    height: 35vw;
+}
+
+.intro {
+    padding-top: 10vw;
+    background-color: rgb(0, 144, 144);
+}
+
+.intro p {
+    color: aliceblue;
+    font-size: 2.5vw;
+    text-align: center;
+    padding-bottom: 10vw;
+    font-family: 'Dancing Script', 'cursive';
+    font-weight: 500;
+}
+
+.para {
+    background-image: url('https://img.freepik.com/free-photo/hardworking-focused-woman-trendy-glasses-concentrating-writing-essay-sitting-cozy-cafe-near-laptop-working-making-notes-carefully_197531-21320.jpg?w=2000');
+    background-attachment: fixed;
+    background-position: center;
+    background-image: no-repeat;
+    background-size: cover;
+    padding-top: 30vw;
+}
+
+.content {
+    background-color: rgb(0, 144, 144);
+    color: aliceblue;
+}
+
+.para h4 {
+    padding-top: 5vw;
+    padding-bottom: 2vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-family: 'rubik', sans-serif;
+    font-size: 2.5vw;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-underline-offset: 0.5vw;
+}
+
+.abimage {
+    float: left;
+    height: 26vw;
+    width: 28vw;
+    border-radius: 5%;
+    border: .5vw solid rgb(255, 255, 255);
+    margin-left: 11vw;
+    margin-top: 3vw;
+    box-shadow: 3px 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content p {
+    color: aliceblue;
+    font-family: 'rubik', sans-serif;
+    font-size: 1.4vw;
+    margin-left: 45vw;
+    margin-top: 4.5vw;
+    margin-right: 6vw;
+    filter: brightness(140%);
+    padding-bottom: 10vw;
+    letter-spacing: 1.5px;
+    text-align: justify;
+    line-height: 2vw;
+}
+
+
+.skills {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 50px;
+}
+
+#skl {
+    font-weight: bolder;
+    padding-bottom: 50px;
+    padding-top: 3vw;
+    font-family: 'rubik', sans-serif;
+    font-size: 2.5vw;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 0.5vw;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#tkg {
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    font-size: 1.8vw;
+    font-family: 'Dancing';
+    letter-spacing: 0.1vw;
+    font-family: sans-serif, 'Poppins';
+}
+
+#dkg {
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    font-size: 1.8vw;
+    font-family: 'Dancing';
+    padding-top: 60px;
+    letter-spacing: 0.1vw;
+    font-family: sans-serif, 'Poppins';
+}
+
+#dt {
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    font-size: 1.8vw;
+    font-family: 'Dancing';
+    padding-top: 60px;
+    letter-spacing: 0.1vw;
+    font-family: sans-serif, 'Poppins';
+}
+
+/* starting of experiments */
+.tk ol li {
+    font-family: 'rubik', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 0.3vw;
+    display: inline-block;
+    font-size: larger;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    padding-bottom: 4vw;
+    padding-top: 4vw;
+    margin-left: 2vw;
+    border-radius: 5%;
+    background-image: linear-gradient(to bottom right, rgb(1, 121, 121), rgb(0, 187, 187));
+    color: aliceblue;
+    transition: all 0.35s ease-in;
+    border: 2px rgb(0, 99, 99) solid;
+}
+
+.tk ol li:hover {
+    /* transform:rotate(360deg); */
+    transform: scale(1.1);
+    border: 3px rgb(0, 99, 99)solid;
+    box-shadow: 3px 3px 8px 3px rgba(2, 255, 238, 0.2), 3px 3px 8px 3px rgba(2, 255, 238, 0.1);
+}
+
+.dk ol li {
+    padding-top: 4vw;
+    font-family: 'rubik', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 0.3px;
+    display: inline-block;
+    font-size: larger;
+    padding-right: 4vw;
+    padding-left: 4vw;
+}
+
+.dtk ol li {
+    padding-top: 4vw;
+    font-family: 'rubik', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 0.3px;
+    display: inline-block;
+    font-size: larger;
+    padding-right: 4vw;
+    padding-left: 4vw;
+}
+
+.mobile-navbar-btn {
+    background: transparent;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon {
+    height: 5vw;
+    width: 5vw;
+    padding-top: 1.5vw;
+    float: right;
+    position: fixed;
+    margin-left: 88.5vw;
+}
+
+.mobile-nav-icon[name="close-circle-outline"] {
+    display: none;
+}
+
+@media (max-width: 62em) {
+
+    body,
+    html {
+        font-size: 100%;
+    }
+
+    .header .nav .logo {
+        width: 80%;
+    }
+
+    .image {
+        width: 45%;
+        height: 44vw;
+    }
+
+    .icon1 a .fa-linkedin {
+        color: white;
+        padding-top: 6px;
+    }
+
+    .mobile-navbar-btn {
+        display: none;
+    }
+}
+
+@media (max-width:52em) {
+
+    .html {
+        overflow-x: hidden;
+    }
+
+    .body {
+        overflow-x: hidden;
+    }
+
+    .mobile-navbar-btn {
+        display: block;
+        z-index: 900;
+        color: aliceblue;
+        padding-right: 4vw;
+       
+    }
+
+    .nav .logo p {
+        font-size: 3vw;
+        padding-top: 2.5vw;
+    }
+
+    .nav {
+        height: 8vw;
+    }
+
+
+    .nav ol {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-left: 14vw;
+        padding-top: 13vw;
+    }
+
+    nav ol a {
+        font-weight: 500;
+        font-size: 3.15vw;
+        line-height: 8vw;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .nav1 {
+        background-color: rgba(39, 44, 49, 0.93);
+        width: 100vw;
+        height: 100vw;
+        transform: translateX(100%);
+        transition: all 0.5s linear;
+
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+
+    .active .nav1 {
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    .active .mobile-navbar-btn .mobile-nav-icon[name="close-circle-outline"] {
+        display: block;
+    }
+
+    .active .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
+        display: none;
+    }
+
+    .image {
+        width: 59%;
+        height: 57vw;
+    }
+
+    .icon1 a .fa-linkedin {
+        padding-top: 6px;
+    }
+
+    .abimage {
+        height: 26vw;
+        width: 28vw;
+        border-radius: 5%;
+        border: .5vw solid rgb(255, 255, 255);
+        margin-left: 35vw;
+        margin-top: 3vw;
+        box-shadow: 3px 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+
+    .content p {
+        color: aliceblue;
+        font-family: 'rubik', sans-serif;
+        font-size: 2.3vw;
+        margin-left: 6vw;
+        margin-top: 33vw;
+        margin-right: 6vw;
+        filter: brightness(140%);
+        padding-bottom: 10vw;
+        letter-spacing: 1.5px;
+        text-align: justify;
+        line-height: 3.3vw;
+    }
+
+    .intro p {
+        padding-bottom: 10vw;
+        font-size: 3vw;
+    }
+
+}
+
+@media (max-width:691px) {
+    #project .project {
+        border: 5.5vw solid rgb(0, 144, 144);
+        color: black;
+        font-family: 'rubik', sans-serif;
+        height: 105vw;
+        width: 100%;
+    }
+
+    .image {
+        width: 68%;
+        height: 63vw;
+    }
+}
+
+@media (max-width:640px) {
+    .image {
+        width: 79vw;
+        height: 69vw;
+    }
+
+    .icon1 a .fa-linkedin {
+        padding-top: 5px;
+    }
+
+    .abimage {
+        height: 28vw;
+        width: 30vw;
+        border-radius: 5%;
+        border: .5vw solid rgb(255, 255, 255);
+        margin-left: 35vw;
+        margin-top: 3vw;
+        align-items: center;
+        box-shadow: 3px 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .content p {
+        color: aliceblue;
+        font-family: 'rubik', sans-serif;
+        font-size: 2.3vw;
+        margin-left: 10vw;
+        margin-top: 40vw;
+        margin-right: 10vw;
+        filter: brightness(140%);
+        padding-bottom: 10vw;
+        letter-spacing: 1.5px;
+        text-align: justify;
+        line-height: 3.5vw;
+    }
+    a #text3{
+        color: black;
+        padding-left: 43vw;
+        letter-spacing: 0.1vw;
+    }
+
+}
+
+@media (max-width:500px) {
+    .image {
+        width: 99vw;
+        height: 89vw;
+    }
+
+    .icon1 a .fa-linkedin {
+        padding-top: 4px;
+    }
+
+}
+
+@media (max-width:360px) {
+    .image {
+        width: 142%;
+        height: 117vw;
+    }
+
+    .icon1 a .fa-linkedin {
+        padding-top: 2px;
+    }
+
+}
+
+.icon2 .behance img a {
+    height: 45vw;
+    width: 45vw;
+}
+
+.project {
+    border: 5.5vw solid rgb(0, 144, 144);
+    color: black;
+    font-family: 'rubik', sans-serif;
+    height: 60vw;
+    width: 100%;
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+}
+
+.box h4 {
+    padding-top: 5vw;
+    padding-bottom: 2vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-family: 'rubik', sans-serif;
+    font-size: 2.5vw;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-underline-offset: 0.5vw;
+}
+
+.project1 {
+    margin-left: 4.5vw;
+    margin-top: 3.5vw;
+    margin-bottom: 4.5vw;
+    float: left;
+    width: 33.%;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.projectimage1 {
+    height: 20vw;
+    width: 30vw;
+    border: 1vw solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+    transition: transform 0.35s;
+}
+
+.projectimage1:hover {
+    transform: scale(1.12);
+    box-shadow: 1px 1px 8px 2px rgba(0.1, 0.1, 0.1, 0), 0 6px 20px 0 rgba(0.1, 0.1, 0.1, 0.05);
+}
+
+#text1 {
+    text-decoration: none;
+    font-family: 'rubik', sans-serif;
+    font-weight: 900;
+    font-size: larger;
+    display: block;
+    padding-top: 15px;
+    color: black;
+    letter-spacing: 0.12vw;
+}
+
+.projectimage2 {
+    height: 20vw;
+    width: 30vw;
+    border: 1vw solid rgb(255, 255, 255);
+    transition: transform 0.35s;
+    box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.projectimage2:hover {
+    transform: scale(1.12);
+    box-shadow: 1px 1px 8px 2px rgba(0.1, 0.1, 0.1, 0), 0 6px 20px 0 rgba(0.1, 0.1, 0.1, 0.05);
+}
+
+#text2 {
+    text-decoration: none;
+    color: black;
+    font-family: 'rubik', sans-serif;
+    font-weight: 900;
+    font-size: larger;
+    display: block;
+    padding-top: 15px;
+    letter-spacing: 0.12vw;
+}
+
+#text3 {
+    text-decoration: none;
+    font-family: 'rubik', sans-serif;
+    font-weight: 1000;
+    font-size: 1.5vw;
+    color: black;
+    padding-left: 68vw;
+    letter-spacing: 0.1vw;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+
+.right {
+    transform: rotate(-35deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.contact {
+    background-color: rgb(0, 144, 144);
+    color: aliceblue;
+
+}
+
+.contact h4 {
+    text-underline-offset: 0.5vw;
+    padding-top: 5vw;
+    padding-bottom: 2vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-family: 'rubik', sans-serif;
+    font-size: 2.5vw;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contact h6 {
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+    text-align: center;
+    font-family: 'rubik', sans-serif;
+    font-size: 1.5vw;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.footer {
+    background-image: url('https://d39l2hkdp2esp1.cloudfront.net/img/photo/125563/125563_00_2x.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-image: no-repeat;
+    background-size: cover;
+    padding-top: 30vw;
+}
+
+.icon1 {
+    background-color: white;
+    height: 4vw;
+    width: 4vw;
+    padding-top: 0.45vw;
+    border-radius: 50%;
+    float: left;
+    margin-left: 45vw;
+    transition: all 0.45s;
+}
+
+.icon1:hover {
+    box-shadow: 3px 3px 8px 3px rgba(255, 255, 255, 0.2), 4px 3px 10px 4px rgba(255, 255, 255, 0.15);
+}
+
+.icon2:hover {
+    box-shadow: 3px 3px 8px 3px rgba(255, 255, 255, 0.2), 4px 3px 10px 4px rgba(255, 255, 255, 0.15);
+}
+
+.fa {
+    height: 3.1vw;
+    width: 3.1vw;
+    background-color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 6vw;
+    border-radius: 50%;
+    margin-left: 0.45vw;
+}
+
+.fa-linkedin {
+    color: white;
+    padding-top: 0.7vw;
+}
+
+.icon2 {
+    background-color: white;
+    height: 4vw;
+    width: 4vw;
+    padding-top: 0.25vw;
+    border-radius: 50%;
+    float: left;
+    margin-left: 2vw;
+    transition: all 0.45s;
+}
+
+.behance {
+    height: 3vw;
+    width: 3vw;
+    margin-left: 0.2vw;
+}
+
+.contact h5 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.752);
+}
+
+#dd {
+    text-align: center;
+    padding-top: 2vw;
+}
